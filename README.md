@@ -1,4 +1,7 @@
 # mq-demos
+The following Message Queues have done in branch <zeluo>
 * activemq
 * rabbitmq
-* kafka
+
+
+### kafka will be done soon
