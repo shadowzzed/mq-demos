@@ -17,7 +17,7 @@ public class Producer {
     @Autowired
     private ActiveMqService mqService;
 
-    @Scheduled(fixedDelay = 3000)
+//    @Scheduled(fixedDelay = 3000)
     public void send() {
         this.mqService.send("testDemo", "I'M TEST");
     }
