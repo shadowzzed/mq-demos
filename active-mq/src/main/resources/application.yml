@@ -1,3 +1,7 @@
 spring:
   activemq:
     broker-url: tcp://127.0.0.1:61616?jms.prefetchPolicy.all=2
+
+activemq:
+  max-threads: 50
+  min-threads: 5

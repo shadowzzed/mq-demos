@@ -8,10 +8,10 @@ import org.springframework.stereotype.Component;
  * @author Zeluo
  * @date 2019/8/26 10:13
  */
-//@Component
+@Component
 @Slf4j
 public class Consumer {
-//    @JmsListener(destination = "testDemo",concurrency = "5-50")
+    @JmsListener(destination = "testDemo",concurrency = "5-50")
     public void receive(String message) throws InterruptedException {
         Thread.sleep(200L);
         log.info(message);
